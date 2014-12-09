@@ -33,6 +33,16 @@ body {
   font-size: 13px;
   line-height: 18px;
 }
-footer { margin-top: 100px; }
-table, td, th { vertical-align: middle; border: none; }
-th { border-bottom: 1ps solid #DDD; }
+
+footer { 
+  margin-top: 100px;
+}
+
+table, td, th { 
+  vertical-align: middle;
+  border: none;
+}
+
+th {
+  border-bottom: 1ps solid #DDD;
+}
