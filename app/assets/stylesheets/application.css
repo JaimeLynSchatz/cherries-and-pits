@@ -14,11 +14,25 @@
  *= require_self
  */
 
-body { 
-  padding-top: 100px;
-  background-color: rgba(255, 133, 13, 20);
-  background-color: red;
- }
+ /*
+ *  Style Guide
+ *
+ *  yellow: rgb(255, 214, 18)
+ *  yellow-y orange: rgb(232, 157, 0)
+ *  orange: rgb(255, 133, 13)
+ *  orange-y red: rgb(232, 65, 0)
+ *  red: rgb(255, 26, 11)
+ *
+ */
+
+body {
+  padding-top: 60px;
+  background-color: rgba(255, 214, 18, .20) !important;
+  color: rgb(255, 26, 11) !important;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1ps solid #DDD; }
