@@ -6,7 +6,8 @@ gem 'rails', '4.1.6'
 
 # Use sqlite3 as the database for Active Record
 # in development and test
-gem 'sqlite3', group: :development, :test
+gem 'sqlite3', group: :development
+gem 'sqlite3', group: :test
 
 # Use postgres as the database for production (Heroku)
 gem 'pg', group: :production
