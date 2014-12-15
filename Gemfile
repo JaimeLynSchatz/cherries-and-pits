@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 # issue with less for Rails
-gem 'bootstrap-sass'
+gem 'sass-rails', '>= 3.2' # sass-rails needs to be higher than 3.2
+gem 'bootstrap-sass', '~> 3.1.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
